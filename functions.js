@@ -472,7 +472,7 @@ menu=`<nav class="navbar navbar-inverse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Know Yourself</a>
+      <a class="navbar-brand" href="index.html">Know Yourself</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
