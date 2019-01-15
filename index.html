@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="functions.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body onload="show()">
+    <div class="container">
+      <h1>Personality Test</h1>
+      <p >
+        Below are Traits of four personality types L,O,G,B respectively. For each group of traits select the nuber "4" next to the word that best describes you;
+number "3" next to the word that next describes you next best; "2" for next best and "1" by the word that least describes you.
+In end on each group of words you will have one "4", one "3", one "2" and one "1".
+<br><br>
+<b>For example: </b> One choice for the first line of words would be as follows:
+<br>
+Likes Authority: 3, Enthusiastic: 4, Sensitive Feelings: 2, Likes Instructions: 1
+
+      </p>
+
+        <p><b>How this works?</b>
+          L,O,G,B stands for 4 personality types Lions, Otters, Golden Retrievers and Beavers respectively. By adding the number for each trait, personality score is obtained.
+          Personality type with highest scores is your dominant personality type.
+          While you are a combinantion of all four personality types,
+          but the highest scores reveal the most accurate picture of your natural inclinations, strengths and weaknesses,
+          and how you will naturally respond in most situations</p>
+          <b><small>The four personality types are linked to animals to make them easier to understand and remember</small></b>
+<br><br>
+    </div>
+
+
+  <div class="container" id="demo" style="border:0px solid #ccc; padding:20px;">
+
+</div>
+<div class="modal fade" id="myModal" role="dialog">
+   <div class="modal-dialog modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         <h4 class="modal-title">Results - <small>Know Yourself</small></h4>
+       </div>
+       <div class="modal-body">
+         <div id="modal-result">
+         </div>
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+       </div>
+     </div>
+   </div>
+ </div>
+<br><hr style='width:60%; height:1px; background-color:#ccc; margin:0px; margin-left:auto;margin-right:auto'>
+<p style='text-align:center;padding:10px;'>Just for fun by: Shivani Ralhan</p>
+  </body>
+</html>

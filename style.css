@@ -1,0 +1,45 @@
+
+
+  .trait-item .lead{
+    font-size:15px;
+  }
+
+.trait-item{
+min-width:200px;
+}
+  .trait-item{
+          padding:5px; color:#fff;
+        }.trait-item select{
+          color:#fff; background:none; border:0px solid;
+          border-bottom:1px solid #ccc;
+        }
+        .trait-group .trait-item:nth-child(1) select option{
+          background:#738c9e !important;
+
+        }
+        .trait-group .trait-item:nth-child(1){
+        background-color:#738c9e;
+        }
+
+          .trait-group .trait-item:nth-child(2){
+          background-color:#336B87;
+          }
+          .trait-group .trait-item:nth-child(2) select option{
+            background:#336B87 !important;
+
+          }
+            .trait-group .trait-item:nth-child(3){
+            background-color:#2A3132;
+            }
+
+            .trait-group .trait-item:nth-child(3) select option{
+              background:#2A3132 !important;
+
+            }
+              .trait-group .trait-item:nth-child(4){
+              background-color:#763626;
+              }
+              .trait-group .trait-item:nth-child(4) select option{
+                background:#763626 !important;
+
+              }
