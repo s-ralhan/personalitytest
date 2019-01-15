@@ -464,7 +464,7 @@ return false;
 }
 
 function createmenu(){
-menu=`<nav class="navbar navbar-inverse">
+menu=`<nav class="navbar navbar-inverse" style="border-radius:0px">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -482,6 +482,6 @@ menu=`<nav class="navbar navbar-inverse">
      </div>
   </div>
 </nav> `;
-  document.getElementById('menu').innerHtml=menu;
+  document.getElementById('menu').innerHTML=menu;
 }
 
