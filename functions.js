@@ -63,7 +63,7 @@
         ]}
       ];
   function show(){
-
+createmenu();
 x="<form onsubmit='return result()' id='f1'>";
 for(i=0;i<questions.length;i++)
 {
@@ -134,7 +134,7 @@ console.log("b="+b);
 r="";
 if(l>=o&&l>=g&&l>=b)
 {x++;
-r+=`<h1>L= Lions</h1>
+r+=`<h1>L = Lions</h1>
 <p>Lions are leaders. They are usually the bosses at work... or at least they think they are! They are decisive, bottom line folks who are observers,
 not watchers or listeners. They love to solve problems. They are usually individualists who love to seek new adventures and opportunities.
 <br>
@@ -221,7 +221,7 @@ Most enterpreneurs are strong lions, or at least have a lot of lion in them.
 }
 if(o>=l&&o>=g&&o>=b)
 {x++;
-r+=`<h1>O= Otters</h1>
+r+=`<h1>O = Otters</h1>
 <p>Otters are excitable, fun seeking, cheerleader types who love to talk! They're great at motivating others and need to be in an environment where they can talk and have a vote on major decisions.
 The otters' outgoing nature makes them great <i>networkers-</i> they usually know a lot of people who know a lot of people.
 They can be very loving and encouraging unless under pressure, when they tend to use their verbal skills to attack.
@@ -299,7 +299,7 @@ Otters are the life of any party; and most people really enjoy being around them
 
 if(g>=l&&g>=o&&g>=b)
 {x++;
-r+=`<h1>G= Golden Retrivers</h1>
+r+=`<h1>G = Golden Retrivers</h1>
 <p>
 One word describes these people: LOYAL. They're so loyal, in fact, that they can absorb the most emotional pain and punishment in a relationship and still stay committed.
 They are great listeners, incredibly empathetic and warm encouragers, However, they tend to be such pleasers that they can have great diffulty being assertive in a situation or relationship when it's needed.
@@ -462,3 +462,26 @@ $('#myModal').modal('show');
 //event.preventDefault();
 return false;
 }
+
+function createmenu(){
+menu=`<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Know Yourself</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="personality-types.html">Personality Types</a></li>
+      </ul>
+     </div>
+  </div>
+</nav> `;
+  document.getElementById('menu').innerHtml=menu;
+}
+
