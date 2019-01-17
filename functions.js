@@ -139,7 +139,7 @@ r+=`<h1>L = Lions</h1>
 not watchers or listeners. They love to solve problems. They are usually individualists who love to seek new adventures and opportunities.
 <br>
 <br>
-Lions are very confident and self-reliant. In a group setting, if no one else instantly takes charge, yhe Lion will.
+Lions are very confident and self-reliant. In a group setting, if no one else instantly takes charge, the Lion will.
 Unfortunately, if they don't learn how to tone down their aggressiveness, their natural dominating traits can cause problems with others.
 Most enterpreneurs are strong lions, or at least have a lot of lion in them.
 </p>
@@ -286,7 +286,7 @@ Otters are the life of any party; and most people really enjoy being around them
 </tr>
 <tr>
 <td><b>Greatest Needs:</b></td>
-<td>The Otters needs social activities and recognition; activities that are fun, and freedon from s=details.</td>
+<td>The Otters needs social activities and recognition; activities that are fun, and freedon from details.</td>
 </tr>
 <tr>
 <td><b>What the Otters Desires:</b></td>
@@ -378,7 +378,7 @@ They are great listeners, incredibly empathetic and warm encouragers, However, t
 if(b>=l&&b>=l&&b>=g)
 {x++;
 r+=`<h1>B = Beavers</h1>
-<p>Beavers have a strong need to do things right and <i>by the book</i>. In fact, they are thekind of people who actually read the instruction mannuals.
+<p>Beavers have a strong need to do things right and <i>by the book</i>. In fact, they are the kind of people who actually read the instruction mannuals.
 They are great in providing quality control in an office, and will provide quality control in any situation or field that demands accuracy such as accounting , engineering etc.
 Because rules, consistency and high standards are so important to beavers, they are often frustrated with others who do not share these same characteristics.
 Their strong need for maintaining high (and oftentimes unrealistic) standards can short-circuit their ability to express warmth in a relationship.
